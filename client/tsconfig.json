@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext", // Hoặc "ESNext"
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "force",
+    "lib": ["DOM", "ES6"],
+    "moduleResolution": "NodeNext", // Quan trọng để Node.js có thể tìm module
+    "strict": true,
+    "esModuleInterop": true, // Giúp hỗ trợ interop với CommonJS modules
+    "outDir": "./dist", // Đầu ra của các file biên dịch
+    "rootDir": "./src", // Nơi chứa file nguồn TypeScript
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"], // Bao gồm tất cả các file trong thư mục src
+  "exclude": ["node_modules"] // Loại trừ thư mục node_modules
+}

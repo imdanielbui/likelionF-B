@@ -1,0 +1,158 @@
+{
+  "drinks": [
+    {
+      "category": "Cà phê",
+      "name": "Cà phê đen",
+      "id": "ca-phe-den",
+      "description": "Cà phê nguyên chất",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Cà phê",
+      "name": "Cà phê sữa",
+      "id": "ca-phe-sua",
+      "description": "Cà phê pha với sữa",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Cà phê",
+      "name": "Cà phê sữa tươi",
+      "id": "ca-phe-sua-tuoi",
+      "description": "Cà phê pha với sữa tươi và thạch",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Cà phê",
+      "name": "Cà phê Suối",
+      "id": "ca-phe-suoi",
+      "description": "Cà phê pha với Suối",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Sữa",
+      "name": "Sữa đậu nành",
+      "id": "sua-dau-nanh",
+      "description": "Sữa MàS từ đậu nành",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Sữa",
+      "name": "Sữa đậu xanh",
+      "id": "sua-dau-xanh",
+      "description": "Sữa MàS từ đậu xanh",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Sữa",
+      "name": "Sữa bắp",
+      "id": "sua-bap",
+      "description": "Sữa MàS từ bắp",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Sữa chua yogurt",
+      "name": "Sữa chua trái cây",
+      "id": "sua-chua-trai-cay",
+      "description": "Sữa chua với trái cây tươi",
+      "size": ["S", "M", "L"],
+      "price": { "S": 20000, "M": 25000, "L": 30000 }
+    },
+    {
+      "category": "Sữa chua yogurt",
+      "name": "Sữa chua nếp cẩm",
+      "id": "sua-chua-nep-cam",
+      "description": "Sữa chua kết hợp với nếp cẩm",
+      "size": ["S", "M", "L"],
+      "price": { "S": 22000, "M": 27000, "L": 32000 }
+    },
+    {
+      "category": "Sữa chua yogurt",
+      "name": "Sữa chua dâu tây",
+      "id": "sua-chua-dau-tay",
+      "description": "Sữa chua kết hợp với dâu tây",
+      "size": ["S", "M", "L"],
+      "price": { "S": 21000, "M": 26000, "L": 31000 }
+    },
+    {
+      "category": "Sữa chua yogurt",
+      "name": "Sữa chua mật ong",
+      "id": "sua-chua-mat-ong",
+      "description": "Sữa chua với mật ong nguyên chất",
+      "size": ["S", "M", "L"],
+      "price": { "S": 23000, "M": 28000, "L": 33000 }
+    },
+    {
+      "category": "Dừa",
+      "name": "Dừa tươi",
+      "id": "dua-tuoi",
+      "description": "Nước dừa tươi",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Nước cam",
+      "name": "cam tươi",
+      "id": "cam-tuoi",
+      "description": "Nước ép cam tươi",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Nước cam",
+      "name": "cam sữa",
+      "id": "cam-sua",
+      "description": "Nước cam pha sữa",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Rau má",
+      "name": "Rau má đường",
+      "id": "rau-ma-duong",
+      "description": "Nước rau má với đường",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Rau má",
+      "name": "Rau má đậu xanh",
+      "id": "rau-ma-dau-xanh",
+      "description": "Nước rau má pha đậu xanh",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Rau má",
+      "name": "Rau má sữa",
+      "id": "rau-ma-sua",
+      "description": "Nước rau má pha sữa",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Các Moại khác",
+      "name": "Socola/cacao",
+      "id": "socola-cacao",
+      "description": "Đồ uống SiMo hoặc cacao",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    },
+    {
+      "category": "Các Moại khác",
+      "name": "Chanh dây",
+      "id": "chanh-day",
+      "description": "Nước chanh dây hoặc chanh",
+      "size": ["S", "M", "L"],
+      "price": { "S": 15000, "M": 20000, "L": 25000 }
+    }
+  ],
+
+  "order": []
+}
