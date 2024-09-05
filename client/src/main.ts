@@ -29,6 +29,7 @@ const listCategorys = (async () => {
 
 const createDrinkList = async (index: number = 0) => {
   const groupDinks = document.getElementById("group-drink");
+  const modal = document.getElementById("modal-drink");
   const cateList = await listCategorys;
 
   if (groupDinks) groupDinks.innerHTML = "";
@@ -40,6 +41,9 @@ const createDrinkList = async (index: number = 0) => {
     firstDrinkList.forEach((drink, index) => {
       const divItemDrik = document.createElement("div");
       divItemDrik.className = "item-drink";
+      divItemDrik.addEventListener("click", () => {
+        if (modal) modal.style.display = "block";
+      });
       const h3 = document.createElement("h3");
       h3.className = "name-drink";
       h3.textContent = drink.name;
@@ -56,6 +60,7 @@ const createDrinkList = async (index: number = 0) => {
       button.textContent = "+";
       button.className = "bottom-card-btn";
       button.addEventListener("click", (e) => {
+        e.stopPropagation();
         handleAddOrderBtn(drink);
       });
       divBottom.appendChild(p);
@@ -74,6 +79,18 @@ createDrinkList(0);
   const openCartBtn = document.getElementById("cart");
   const clearAll = document.getElementById("btn-clear-cart");
   const checkout = document.getElementById("btn-checkout");
+  const modal = document.getElementById("modal-drink");
+  var span = document.getElementsByClassName("close-modal")[0];
+  // When the user clicks on <span> (x), close the modal
+  span.addEventListener("click", () => {
+    if (modal) modal.style.display = "none";
+  });
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      if (modal) modal.style.display = "none";
+    }
+  };
   checkout?.addEventListener("click", () => {
     alert("Bạn đã thanh toán thành công.");
     deleteAll();
