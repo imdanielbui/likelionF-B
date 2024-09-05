@@ -3,7 +3,7 @@ $colors-primary: whitesmoke;
 $colors-dark: #2b2b2b;
 $border-container: 20px;
 $border-button: 12px;
-$padding-container: 12px;
+$padding-container: 16px;
 $box-shadow-conainer: 30px 30px 60px #dadada, -30px -30px 60px #ffffff;
 $box-shadow-conainer-m: 12px 12px 16px #dadada, -12px -12px 16px #ffffff;
 $box-shadow-conainer-dark: 12px 12px 20px #202020, -12px -12px 20px #363636;
@@ -35,7 +35,7 @@ $box-shadow-conainer-dark: 12px 12px 20px #202020, -12px -12px 20px #363636;
   box-shadow: $box-shadow-conainer-m;
   border-radius: $border-button;
   padding: 4px 8px;
-  margin: 8px 4px;
+  margin: 8px 0px;
 }
 
 @mixin flex($direc, $jcontent) {

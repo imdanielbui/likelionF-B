@@ -354,7 +354,7 @@ html p,
           align-items: center;
   -webkit-box-shadow: 30px 30px 60px #dadada, -30px -30px 60px #ffffff;
           box-shadow: 30px 30px 60px #dadada, -30px -30px 60px #ffffff;
-  padding: 12px;
+  padding: 16px;
   border-radius: 20px;
   color: #333;
   min-width: 350px;
@@ -370,6 +370,8 @@ html p,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 12px;
+  padding: 0 8px;
   overflow-x: scroll;
 }
 .container-menu #tab-fb::-webkit-scrollbar {
@@ -388,7 +390,7 @@ html p,
           box-shadow: 12px 12px 16px #dadada, -12px -12px 16px #ffffff;
   border-radius: 12px;
   padding: 4px 8px;
-  margin: 8px 4px;
+  margin: 8px 0px;
 }
 .container-menu #group-drink {
   padding: 16px;
@@ -412,7 +414,7 @@ html p,
           align-items: center;
   -webkit-box-shadow: 12px 12px 16px #dadada, -12px -12px 16px #ffffff;
           box-shadow: 12px 12px 16px #dadada, -12px -12px 16px #ffffff;
-  padding: 12px;
+  padding: 16px;
   border-radius: 20px;
   color: #333;
   -webkit-box-pack: justify;
@@ -465,6 +467,89 @@ html p,
   color: #333;
 }
 
+/* The Modal (background) */
+.modal-item-drink {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 25vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+}
+.modal-item-drink .modal-item-drink-detail {
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 16px;
+  min-width: 300px;
+  width: 70vw;
+  border-radius: 20px;
+}
+.modal-item-drink .modal-item-drink-detail .close-modal {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  top: -16px;
+  right: -4px;
+}
+.modal-item-drink .modal-item-drink-detail .close-modal:hover, .modal-item-drink .modal-item-drink-detail .close-modal:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-item-drink .modal-item-drink-detail .img-item {
+  width: 100%;
+}
+.modal-item-drink .modal-item-drink-detail .group-size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.modal-item-drink .modal-item-drink-detail .group-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.modal-item-drink .modal-item-drink-detail .bottom-modal-btn {
+  height: 5dvh;
+  width: 100% !important;
+  border: none;
+  -webkit-box-shadow: 12px 12px 16px #dadada, -12px -12px 16px #ffffff;
+          box-shadow: 12px 12px 16px #dadada, -12px -12px 16px #ffffff;
+  border-radius: 12px;
+  padding: 4px 8px;
+  margin: 8px 0px;
+  margin-bottom: 0;
+}
+
 #footer-fb {
   position: absolute;
   bottom: 0px;
@@ -472,7 +557,7 @@ html p,
   width: 100%;
   height: 10dvh;
   background-color: whitesmoke;
-  padding: 12px;
+  padding: 16px;
   -webkit-box-shadow: 0px -12px 12px #dadada;
           box-shadow: 0px -12px 12px #dadada;
 }
